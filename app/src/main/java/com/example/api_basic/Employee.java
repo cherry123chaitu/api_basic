@@ -3,9 +3,9 @@ package com.example.api_basic;
 import com.google.gson.annotations.SerializedName;
 
 public class Employee {
-
+        @SerializedName("name")
         String firstname;
-
+        @SerializedName("imageurl")
         String lastname;
       //  @SerializedName("emp_id") in case u use a different name from the Json array.
            String emp_id;

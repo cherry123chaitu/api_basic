@@ -7,8 +7,8 @@ import retrofit2.http.GET;
 import retrofit2.http.PUT;
 
 interface Api {
-    String BASE_URL="http://127.0.0.1:8000/";
-    @GET("employee")
+    String BASE_URL="https://simplifiedcoding.net/demos/";
+    @GET("marvel")
     Call<List<Employee>> getemployee();
-    
+
 }
